@@ -3,28 +3,99 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My navbar</title>
+    <title>Poject 1</title>
+    <!-- Box icon -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <nav>
-      <div class="logo">
-        <h4>My Portofolio</h4>
+    <!-- Header desain  -->
+    <header class="header">
+      <a href="#" class="logo">Portofolio.</a>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skill">Skill</a>
+        <a href="#project">Project</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <!-- Akhir Header -->
+
+    <!-- Desain Home -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hallo, Nama saya</h3>
+        <h1>Riyyadu</h1>
+        <p>Di panggil yadu,dengan nama lengkap</p>
+        <p>M.Riyyadu Solihin</p>
+        <div class="social-media">
+          <a href=""><i class="bx bxl-facebook-circle"></i></a>
+          <a href=""><i class="bx bxl-instagram-alt"></i></a>
+          <a href=""><i class="bx bxl-youtube"></i></a>
+        </div>
       </div>
 
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skill">Skill</a></li>
-        <li><a href="#project">My project</a></li>
-        <li><a href="contact">Contact</a></li>
-      </ul>
-      <div class="menu-toggle">
-        <input type="checkbox" />
-        <span></span>
-        <span></span>
-        <span></span>
+      <div class="profesi-container">
+        <div class="profesi-box">
+          <div class="profesi" style="--i: 0">
+            <i class="bx bx-code-alt"></i>
+            <h3>Web Developer</h3>
+          </div>
+          <div class="profesi" style="--i: 1">
+            <i class="bx bx-code-alt"></i>
+            <h3>Web Developer</h3>
+          </div>
+          <div class="profesi" style="--i: 2">
+            <i class="bx bx-code-alt"></i>
+            <h3>Web Developer</h3>
+          </div>
+          <div class="circle"></div>
+        </div>
+        <div class="overlay"></div>
       </div>
-    </nav>
+      <div class="home-images">
+        <img src="img/home.png" alt="" />
+      </div>
+    </section>
+    <!-- Akhir Home -->
+
+    <!-- Desain About -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="img/about.jpg" alt="" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Hi, I'm Here to help you in next Project</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione eligendi dolore, quis animi repellat a cupiditate asperiores dolorem quia, ipsum sunt, nam natus suscipit beatae ullam deserunt? Sed, unde eveniet.</p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+    <!-- Akhir About -->
+
+    <!-- Desain Skill -->
+    <section class="skill" id="skill">
+      <h2 class="heading">My <span> Skill</span></h2>
+
+      <div class="skill-container">
+        <div class="skill-box">
+          <i class="bx bxl-html5"></i>
+          <h3>HTML</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi velit quidem, delectus fugit unde explicabo quibusdam. Nisi beatae laudantium nobis?</p>
+        </div>
+        <div class="skill-box">
+          <i class="bx bxl-css3"></i>
+          <h3>CSS</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi velit quidem, delectus fugit unde explicabo quibusdam. Nisi beatae laudantium nobis?</p>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir -->
+
+    <!-- Custom Java Script -->
     <script src="js/script.js"></script>
   </body>
 </html>
