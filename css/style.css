@@ -296,3 +296,17 @@ span {
   font-size: 1.6rem;
   margin: 1rem 0 3rem;
 }
+
+/* Menu My project */
+
+.project {
+  padding-bottom: 10rem;
+}
+
+.project h2 {
+  margin-bottom: 4rem;
+}
+
+.project .project-container {
+  display: grid;
+}
