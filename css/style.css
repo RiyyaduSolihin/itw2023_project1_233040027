@@ -449,7 +449,7 @@ span {
 }
 
 .footer-iconTop a:hover {
-  outline-color: var(--white-color);
+  outline-color: #fdfdfd;
 }
 
 .footer-iconTop a i {
@@ -463,6 +463,10 @@ span {
     font-size: 55%;
   }
 
+  .navbar a {
+    color: #333;
+  }
+
   .home .profesi-container {
     height: 85.8rem;
   }
@@ -474,6 +478,10 @@ span {
 
   .home .profesi-container .overlay {
     right: -9rem;
+  }
+
+  .home-images img {
+    margin-bottom: 150px;
   }
 }
 
